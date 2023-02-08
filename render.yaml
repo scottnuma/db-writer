@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: db-writer
+    env: go
+    envVars:
+      - key: CONN_STRING
+        sync: false
