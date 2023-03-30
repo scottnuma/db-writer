@@ -2,7 +2,7 @@
 
 db-writer is a simple application that create and continually write timestamps into the stamps table. db-writer can be useful when you want to simulate continuous writes to a database.
 
-db-writer requires setting the CONN_STRING env var. You can find this on Render as Postgres' External Database URL.
+db-writer requires setting the CONN_STRING env var. You can find this on Render as Postgres' internal Database URL.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
